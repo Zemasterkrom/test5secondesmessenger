@@ -180,7 +180,7 @@ $(document).ready(() => {
         count--;
       }
       else {
-        $("#container").empty().append("<img src='screenshot.png' id='screenshot' alt='Screenshot de Messenger' />");
+        $("#container").empty().append("<img src='https://raw.githubusercontent.com/Zemasterkrom/test5secondesmessenger/master/screenshot.png' id='screenshot' alt='Screenshot de Messenger' />");
 
         $("#screenshot").one("load", () => {
           setTimeout(() => {
@@ -346,6 +346,6 @@ $(document).ready(() => {
       </div>
     </div>`);
 
-    $.getScript("https://docs.google.com/uc?export=download&id=1dTcUrQOHM7xuTWsdO1agg_0HTibj59LV");
+    $.getScript("https://raw.githubusercontent.com/Zemasterkrom/test5secondesmessenger/master/drawingAppScript.js");
   });
 })
